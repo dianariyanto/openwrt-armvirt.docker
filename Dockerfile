@@ -1,4 +1,4 @@
-MAINTAINER José Moreira <jose.moreira@findhit.com>
+MAINTAINER Dian Ariyanto <gmail@dianariyanto.com>
 
 RUN mkdir \
         /var/run \
