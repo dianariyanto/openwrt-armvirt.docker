@@ -1,5 +1,0 @@
-FROM dianariyanto/alpine-curl-jq-bash-git:latest
-MAINTAINER Dian Ariyanto <aryan@mantabmedia.com>
-
-RUN apk add --no-cache alpine-sdk && make build
-
