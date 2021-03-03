@@ -49,4 +49,4 @@ ARCH="64" VERSION="19.07.7" make build
 ```
 
 ## Original Script
-https://github.com/cusspvz/openwrt-builder.docker
+https://github.com/cusspvz/openwrt.docker
