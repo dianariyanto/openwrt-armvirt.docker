@@ -1,5 +1,5 @@
-FROM alpine:3.7
+FROM dianariyanto/alpine-curl-jq-bash-git:latest
 MAINTAINER Dian Ariyanto <aryan@mantabmedia.com>
 
-RUN apk add --no-cache curl jq bash git openssl alpine-sdk && ARCH="64" VERSION="19.07.7" make build
+RUN apk add --no-cache alpine-sdk && make build
 
